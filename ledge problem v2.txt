@@ -1,0 +1,29 @@
+You must measure a ledge without falling into it and you are holding on to your 
+smart hat (it is the year one kajillion X) with one hand because of a stiff 
+breeze. You could run along the edge with a measuring tape, but that's unsafe. 
+How could it be measured safely, using what is known of mathematics? 
+
+Two methods I could use to measure would be to make either a triangle, or a 
+trapeze, with the largest side as the side to measure. The triangle's largest 
+side would also rest on the ledge. The base of the trapeze would rest on the ledge. 
+
+Moving from the ledge with a measuring tape. 
+x*cos(u) + small base of trapeze + y*sin(u) = base of trapeze 
+
+But angles are hard to measure. A better way must be found. 
+Create a square, and have it be x*2^0.5 in length of hypotenuse 
+when divided into a triangle. You can take the square with you. 
+
+Moving on the ledge with your measuring tape, and leaving from the 
+corner of the square (use the measuring tape to leave from it at a 
+good angle!) you measure the length L of the base of the trapeze. 
+You must rotate the square so it points away from you and towards 
+the ledge you are measuring. When the corner of the ledge is pointed 
+at by the square corner, you've reached the point where you could 
+measure that length. You do not, of course! That's the unsafest part. 
+You mark that length L, and return with your data, safe and sound. 
+
+----------------Base--------------
+ \_____________________________[/] <-- no measurement needed here
+
+Base = L + 2x*2^0.5*cos(45) 
