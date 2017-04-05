@@ -4,7 +4,7 @@ f'(x,y) = d(c^2 - ax)^2/dt = a^2*c^2
 f'(x,y) = 2(c^2 - ax)(2c*dc/dt - x*da/dt - a*dx/dt) = 2a^2*c*dc/dt + 2a*c^2*da/dt
 f'(x,y) = (c^2 - ax)(2c*dc/dt - x*da/dt - a*dx/dt) = a*c(a*dc/dt + c*da/dt)
 f'(x,y) = (2c*dc/dt - x*da/dt - a*dx/dt) = a*c(a*dc/dt + c*da/dt)/(c^2 - ax)
-diff. eq. 2dc/a - x/a/c*da - dx/c = (a*dc + c*da)/(c^2 - ax)
+diff. eq.: 1/dt*[2dc/a - x/a/c*da - dx/c = (a*dc + c*da)/(c^2 - ax)]
 f'(x,y)dt = 2/a - x/a/c*da/dc - dx/dc/c = (a + c*da/dc)/(c^2 - ax)
 deriving with dx/dc = (dc/dx)^-1 and c = (x^2 + y^2)^0.5
 f'(x,y)dt = 2/a - x/a/(x^2 + y^2)^0.5(d(x^2 + y^2)^0.5/da)^-1 - 1/(x^2 + y^2)^0.5(d(x^2 + y^2)^0.5/dx)^-1 = (a + (x^2 + y^2)^0.5(d(x^2 + y^2)^0.5/da)^-1)/(x^2 + y^2 - ax)
@@ -12,8 +12,15 @@ f'(x,y)dt = 2/a - x(x + y)/a/(x^2 + y^2) - (x + y)/(x^2 + y^2) = [a + (x + y)/(x
 f'(x,y)dt = 2/a - x(x + y)/a/(x - y)/(x + y) - (x + y)/(x + y)/(x - y) = [a + (x + y)/(x + y)(x - y)]/(x^2 + y^2 - ax)
 f'(x,y)dt = 2/a - x/a/(x - y) - 1/(x - y) = [a + 1/(x - y)]/(x^2 + y^2 - ax)
 f'(x,y)dt = -a[a + 1/(x - y)]/(x^2 + y^2 - ax) - a/(x - y) + 2 = x/(x + y) 
+	
+	This eq. f'(x,y)dt  cannot be integrated. 
+	f'(x,y) is a number producing equation
+	yet is multiplied by an infinitessimal 
+	a number so small it is near zero
+	However, it can be derived or integrated again if the following is done:
 	since u*v = u + c there is a constant of derivation that here is called n
-	such that u*dt = u + c, as f'(x,y) is a number producing equation
+	such that u*dt = u + n
+	
 f'(x,y) ± n = -a[a + 1/(x - y)]/(x^2 + y^2 - ax) - a/(x - y) -  x/(x + y) + 2
 f'(x,y) = -a[a + 1/(x - y)]/(x^2 + y^2 - ax) - a/(x - y) -  x/(x + y) + 2 ± n
 deriving the functions a second time makes n equal nil.
